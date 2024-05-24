@@ -18,7 +18,7 @@ from pixelwise_a3c import PixelWiseA3C_InnerState
 from utils import init_net, savevaltocsv, patin_val
 from mini_batch_loader import MiniBatchLoader
 # from Net.unet_gru import Actor
-from Net.FCN import Actor
+from FCN import Actor
 from tqdm import tqdm
 import os
 from Myloss import pixel_color_rate
